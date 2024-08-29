@@ -1,5 +1,35 @@
 # Changelog
 
+## [1.1.0](https://github.com/ethpandaops/optimism-package/compare/1.0.0...1.1.0) (2024-08-29)
+
+
+### Features
+
+* add custom configurable forks ([#59](https://github.com/ethpandaops/optimism-package/issues/59)) ([878906a](https://github.com/ethpandaops/optimism-package/commit/878906a665b21e9ce86aed091ac995acea13a1ec))
+* add hildr ([#42](https://github.com/ethpandaops/optimism-package/issues/42)) ([e1ce08e](https://github.com/ethpandaops/optimism-package/commit/e1ce08ee24e9bf49106d45f133201d00860e195d))
+* add k8s tests ([#45](https://github.com/ethpandaops/optimism-package/issues/45)) ([168f062](https://github.com/ethpandaops/optimism-package/commit/168f062146c19a64ddc359f22f74f09ba2f5609d))
+* add op_contract_deployer_params/image ([#63](https://github.com/ethpandaops/optimism-package/issues/63)) ([9416a86](https://github.com/ethpandaops/optimism-package/commit/9416a862cf7b7fdaedcf5099467985e790c1ae0c))
+* add op-besu ([#58](https://github.com/ethpandaops/optimism-package/issues/58)) ([08e7548](https://github.com/ethpandaops/optimism-package/commit/08e754858daa45b270b9186fe664d2e51e265e0a))
+* add op-erigon - mininny ([#38](https://github.com/ethpandaops/optimism-package/issues/38)) ([c69bf34](https://github.com/ethpandaops/optimism-package/commit/c69bf3420559d5654eef19274ee4e6870a472db9))
+* add sanity check ([#50](https://github.com/ethpandaops/optimism-package/issues/50)) ([ceaa9a9](https://github.com/ethpandaops/optimism-package/commit/ceaa9a94be98af7ac533a57876c3ce9325cb1669))
+* add version.txt ([#36](https://github.com/ethpandaops/optimism-package/issues/36)) ([1d10311](https://github.com/ethpandaops/optimism-package/commit/1d103111127da3f5ce279ef79ad47e5f1fa51815))
+* add wait for sync for non kurtosis chains ([#49](https://github.com/ethpandaops/optimism-package/issues/49)) ([0452e11](https://github.com/ethpandaops/optimism-package/commit/0452e11be65a66a39319dbc7f39fee625433f51d))
+* Adding op-nethermind ([#46](https://github.com/ethpandaops/optimism-package/issues/46)) ([fba71dd](https://github.com/ethpandaops/optimism-package/commit/fba71dd1a6b8259f6b060dfb0bb0d77341f238cb))
+
+
+### Bug Fixes
+
+* ci jobs only notify if discord secret available ([#48](https://github.com/ethpandaops/optimism-package/issues/48)) ([9473f89](https://github.com/ethpandaops/optimism-package/commit/9473f89f47067e727d6cab38a0e15ed648c62b4d))
+* DNS-1035 label ([#44](https://github.com/ethpandaops/optimism-package/issues/44)) ([1bf8541](https://github.com/ethpandaops/optimism-package/commit/1bf85410d2bb4decafb2b5a2617d50cc3c2f9db1))
+* explicitly set client contexts0 ([30017f2](https://github.com/ethpandaops/optimism-package/commit/30017f2be05d7463bb635d08dbbcf5b7d45104ff))
+* force offset time to be int ([#64](https://github.com/ethpandaops/optimism-package/issues/64)) ([74b6417](https://github.com/ethpandaops/optimism-package/commit/74b6417ed3755455ea865fa93a7c7c28996c2cc3))
+* grammar in docs ([#33](https://github.com/ethpandaops/optimism-package/issues/33)) ([d6fb36f](https://github.com/ethpandaops/optimism-package/commit/d6fb36f8d59a54f174b1f93e5fbb47386d3e486d))
+* l2 contract deployment ([#35](https://github.com/ethpandaops/optimism-package/issues/35)) ([3f2b16d](https://github.com/ethpandaops/optimism-package/commit/3f2b16d0b3bb5d12d4f62315771a4d81268c75e8))
+* Remove wait for finalization for create2 factory deployment ([#60](https://github.com/ethpandaops/optimism-package/issues/60)) ([d4c37f0](https://github.com/ethpandaops/optimism-package/commit/d4c37f0208b233a929725852a6e7f8bcd044e8c7))
+* test k8s ([#47](https://github.com/ethpandaops/optimism-package/issues/47)) ([ac17e89](https://github.com/ethpandaops/optimism-package/commit/ac17e895073d847759887509a38265f07b1a9ae7))
+* trust l1 rpc in op-node ([#41](https://github.com/ethpandaops/optimism-package/issues/41)) ([05dcd2e](https://github.com/ethpandaops/optimism-package/commit/05dcd2eba3d17a6cf5ae4c2895494380e65b24c2))
+* update op-geth hash based storage ([#61](https://github.com/ethpandaops/optimism-package/issues/61)) ([f0b5b23](https://github.com/ethpandaops/optimism-package/commit/f0b5b233385f643ed3f10cd5b8ee078d00e0a328))
+
 ## 1.0.0 (2024-06-17)
 
 
